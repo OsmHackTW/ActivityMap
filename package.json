@@ -1,0 +1,41 @@
+{
+  "name": "OrganizationActivityMap",
+  "version": "1.0.0",
+  "description": "Visual map for OSM activity.",
+  "main": "dev/Page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "global": "npm install -g bower && npm install -g grunt-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OsmHackTW/ActivityMap"
+  },
+  "keywords": [
+    "openstreetmap",
+    "activity"
+  ],
+  "author": "OpenstreetmapTaiwan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OsmHackTW/ActivityMap/issues"
+  },
+  "homepage": "https://github.com/OsmHackTW/ActivityMap",
+  "devDependencies": {
+    "async": "^1.5.1",
+    "grunt": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-processhtml": "^0.3.13",
+    "grunt-sass": "^1.1.0",
+    "normalize.css": "^4.1.1",
+    "request": "^2.72.0"
+  },
+  "dependencies": {
+    "bourbon-neat": "^1.7.4",
+    "node-bourbon": "^4.2.7",
+    "normalize.css": "^4.1.1"
+  }
+}
