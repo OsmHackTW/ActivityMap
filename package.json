@@ -1,15 +1,15 @@
 {
-  "name": "OrganizationActivityMap",
+  "name": "ActivityMap",
   "version": "1.0.0",
   "description": "Visual map for OSM activity.",
   "main": "dev/Page.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "global": "npm install -g bower && npm install -g grunt-cli"
+    "global": "npm install -g bower && npm install -g gulp-cli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OsmHackTW/ActivityMap"
+    "url": "git+https://github.com/OsmHackTW/ActivityMap.git"
   },
   "keywords": [
     "openstreetmap",
@@ -23,13 +23,13 @@
   "homepage": "https://github.com/OsmHackTW/ActivityMap",
   "devDependencies": {
     "async": "^1.5.1",
-    "grunt": "^1.0.0",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-uglify": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-processhtml": "^0.3.13",
-    "grunt-sass": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify":"^1.5.4",
+    "gulp-uglifycss":"^1.0.6",
+    "gulp-processhtml":"1.1.0",
+    "gulp-sass":"2.3.2",
+    "gulp-live-server":"0.0.30",
+    "gulp-watch":"4.3.8",
     "normalize.css": "^4.1.1",
     "request": "^2.72.0"
   },
