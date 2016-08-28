@@ -1,0 +1,11 @@
+//The file only collect library and sub style files
+@import "../node_modules/normalize.css/normalize";
+@import "../node_modules/leaflet/dist/leaflet";
+@import "../node_modules/font-awesome/css/font-awesome.min";
+
+@import "../node_modules/bourbon/app/assets/stylesheets/_bourbon";
+
+@import "grid-settings";
+@import "../node_modules/bourbon-neat/app/assets/stylesheets/_neat";
+
+@import "Page";
